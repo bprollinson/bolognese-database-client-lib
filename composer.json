@@ -1,3 +1,12 @@
 {
-    "name": "bprollinson/bolognese-database-client-lib"
+    "name": "bprollinson/bolognese-database-client-lib",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bprollinson/bolognese-database-client-api"
+        }
+    ],
+    "require": {
+        "bprollinson/bolognese-database-client-api": "dev-master"
+    }
 }
