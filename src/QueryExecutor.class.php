@@ -1,6 +1,6 @@
 <?php
 
-require_once('vendor/bprollinson/bolognese-database-client-lib/src/DatabaseConnectionConfig.class.php');
+require_once(dirname(__FILE__) . '/src/DatabaseConnectionConfig.class.php');
 require_once('vendor/bprollinson/bolognese-database-client-api/src/QueryExecuted.class.php');
 
 class QueryExecutor
